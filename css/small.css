@@ -1,0 +1,44 @@
+/* medium devices */
+@media (max-width: 600px) { 
+            
+    .container {
+   width: 90%;
+   height: 600px;
+   flex-direction: column;
+}
+
+.imagebox {
+    background-image:url(../img/image-product-mobile.jpg);
+    width: 100%;
+    height: 60%;
+   background-size: 100% 130%;
+}
+
+.textbox {
+    width: 100%
+}
+    .perfum {
+    height: 60%;
+}
+    
+.price {
+    height: 40%;
+}
+
+    .perfum h2 {
+    padding: 15px 0px ;
+    line-height: 1.3;
+    width: 300px;
+        font-size: 30px;
+}
+    
+.perfum p:nth-last-child(1) {
+    width: 330px;
+}
+    
+    .usd {
+    width: 300px
+}
+
+}
+
